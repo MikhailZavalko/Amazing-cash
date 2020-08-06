@@ -418,6 +418,8 @@ $ip=$_SERVER['REMOTE_ADDR'];
 		</div>
 	</section>
 
+
+
 	<section class="photo-section">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -428,6 +430,21 @@ $ip=$_SERVER['REMOTE_ADDR'];
 				<div class="col-md-11">
 
 					<div class="gallery owl-carousel d-none d-sm-block">
+
+						<div class="slide-item">
+							<h5>Июль 2020</h5>
+							<div class="res-imgs">
+								<img src="img/slides/7/1.jpg" alt="Июль 2020">
+								<img src="img/slides/7/2.jpg" alt="Июль 2020">
+								<img src="img/slides/7/3.jpg" alt="Июль 2020">
+							</div>
+							<h5>Июнь 2020</h5>
+							<div class="res-imgs">
+								<img src="img/slides/7/4.jpg" alt="Июнь 2020">
+								<img src="img/slides/7/5.jpg" alt="Июнь 2020">
+								<img src="img/slides/7/6.jpg" alt="Июнь 2020">
+							</div>
+						</div>
 
 						<div class="slide-item">
 							<h5>Июль 2019</h5>
@@ -528,20 +545,20 @@ $ip=$_SERVER['REMOTE_ADDR'];
 					<div class="gallery owl-carousel d-block d-sm-none">
 
 						<div class="slide-item">
-							<h5>Июль 2019</h5>
+							<h5>Июль 2020</h5>
 							<div class="res-imgs">
-								<img src="img/slides/6/1.jpg" alt="Июль 2019">
-								<img src="img/slides/6/2.jpg" alt="Июль 2019">
-								<img src="img/slides/6/3.jpg" alt="Июль 2019">
+								<img src="img/slides/7/1.jpg" alt="Июль 2020">
+								<img src="img/slides/7/2.jpg" alt="Июль 2020">
+								<img src="img/slides/7/3.jpg" alt="Июль 2020">
 							</div>
 						</div>
 
 						<div class="slide-item">
-							<h5>Декабрь 2019</h5>
+							<h5>Июнь 2020</h5>
 							<div class="res-imgs">
-								<img src="img/slides/6/4.jpg" alt="Декабрь 2019">
-								<img src="img/slides/6/5.jpg" alt="Декабрь 2019">
-								<img src="img/slides/6/6.jpg" alt="Декабрь 2019">
+								<img src="img/slides/7/4.jpg" alt="Июнь 2020">
+								<img src="img/slides/7/5.jpg" alt="Июнь 2020">
+								<img src="img/slides/7/6.jpg" alt="Июнь 2020">
 							</div>
 						</div>
 
@@ -636,15 +653,13 @@ $ip=$_SERVER['REMOTE_ADDR'];
 						</div>
 					</div>
 
-
-
-
-
 				</div>
 			</div>
 			</div>
 		</div>
 	</section>
+
+	
 
 	<section class="variants-section">
 		<div class="container">
