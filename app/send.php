@@ -14,14 +14,18 @@ $form_subject = $_POST['form_subject'];
 $name = $_POST['Имя'];
 $number = $_POST['Телефон'];
 $email = $_POST['email'];
+$ip = $_POST['ip'];
 
-
+$message = "";
 
 $myCurl = curl_init();
+//curl_setopt( $myCurl, CURLOPT_HTTPHEADER, array("REMOTE_ADDR: $ip", "HTTP_X_FORWARDED_FOR: $ip"));
 $isCurlSuccess = curl_setopt_array($myCurl, array(
     CURLOPT_URL => 'https://app.getresponse.com/add_subscriber.html',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_POST => true,
+    //CURLOPT_INTERFACE => $ip,
+    //CURLOPT_HTTPHEADER =>  array("REMOTE_ADDR: $ip", "HTTP_X_FORWARDED_FOR: $ip"),
     CURLOPT_POSTFIELDS => http_build_query(array(
     	"email" => $email,
     	"name" => $name,
@@ -32,9 +36,9 @@ $isCurlSuccess = curl_setopt_array($myCurl, array(
 $response = curl_exec($myCurl);
 curl_close($myCurl);
 
-echo $name;
-echo $email;
-echo 'Ответ от сервера'. $response;
+//echo $name;
+//echo $email;
+// echo 'Ответ от сервера'. $response;
 
 // Настройки
 $mail = new PHPMailer;
@@ -47,7 +51,7 @@ $mail->Password = 'qweASD123';
 $mail->SMTPSecure = 'ssl';
 $mail->Port = 465;
 $mail->setFrom('amazing.cash@yandex.ru');
-$mail->addAddress('amazing.cash@mail.ru');
+//$mail->addAddress('amazing.cash@mail.ru');
 $mail->addAddress('info@amazing-cash.ru');
 
 
@@ -57,7 +61,7 @@ $c = true;
 if ( $method === 'POST' ) {
 
     $project_name = trim($_POST["project_name"]);
-    $admin_email  = trim($_POST["admin_email"]);
+    $admin_email  = trim($_POST["admin_email"] || '');
     $form_subject = trim($_POST["form_subject"]);
 
     foreach ( $_POST as $key => $value ) {
@@ -73,7 +77,7 @@ if ( $method === 'POST' ) {
 } else if ( $method === 'GET' ) {
 
     $project_name = trim($_GET["project_name"]);
-    $admin_email  = trim($_GET["admin_email"]);
+    $admin_email  = trim($_GET["admin_email"] || '');
     $form_subject = trim($_GET["form_subject"]);
 
     foreach ( $_GET as $key => $value ) {
@@ -99,6 +103,7 @@ $mail->Subject = "$form_subject"; // Заголовок письма
 $mail->Body    = "$message"; // Текст письма
 
 
+include "bitrix24.php";
 
 // Результат
 if(!$mail->send()) {
