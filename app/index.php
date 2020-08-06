@@ -770,10 +770,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 					<div class="result-text">	
 						<h4>"1500-2000$ чистыми в месяц на <br>Amazon со 2-го месяца работы"</h4>
 						<p>Максим Буханов <br>г. Москва</p>
-						<p>Первоначальные вложения: 2500$<br>Окупаемость вложений: 1,5 месяца</p>
-						<!-- <div class="social">
-							<a href="https://vk.com/mbukhanov" target="blank"><img src="img/vk.png" alt="vk">vk.com/mbukhanov</a>
-						</div> -->
+						<p>Первоначальные вложения: 2500$ <br>Окупаемость вложений: 1,5 месяца</p>
 					</div>
 				</div>
 
