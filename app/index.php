@@ -31,7 +31,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 	
 	<meta name="yandex-verification" content="36862617fdf9f673" />
 
-	<link rel="stylesheet" href="css/main.min.css?v=4.4">
+	<link rel="stylesheet" href="css/main.min.css?v=4.5">
 
 </head>
 
@@ -71,7 +71,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 					<a class="button open-form-button" href="#take-sentence"><span>Получить предложение</span></a>
 				</div>
 				<div class="col-md-5">
-					<div class="publicaation">
+					<!-- <div class="publicaation">
 						<p>Публикации в СМИ</p>
 
 						<div class="links">
@@ -82,7 +82,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 							<a href="https://svdelo.ru/biznes-na-amazon/" target="blank" class="sm-public"><span>СВОЕДЕЛО</span></a>
 						</div>
 
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -420,6 +420,26 @@ $ip=$_SERVER['REMOTE_ADDR'];
 
 
 
+	<section class="publication-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="type-h">Публикации в СМИ о нас:</h3>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-xl-2 col-md-4"><a href="https://vc.ru/trade/55789-kak-prodvigat-tovar-na-amazon" target="blank" rel="nofollow"><span>VC.RU</span></a></div>
+				<div class="col-xl-2 col-md-4"><a href="https://bi-school.ru/kak-zapustit-7-magazinov-na-amazon/" target="blank" rel="nofollow" class="sm-public"><span>Бизнес Инсайт</span></a></div>
+				<div class="col-xl-2 col-md-4"><a href="https://moneymakerfactory.ru/internet/kak-zarabatyivat-na-amazon/" target="blank" rel="nofollow" class="sm-public"><span><img src="img/MMF-logo.png" alt="MMF"></span></a></div>
+				<div class="col-xl-2 col-md-4"><a href="https://the-locality.ru/amazingcash/" target="blank" rel="nofollow" class="sm-public philosopher"><span>THE LOCALITY</span></a></div>
+				<div class="col-xl-2 col-md-4"><a href="https://svdelo.ru/biznes-na-amazon/" target="blank" rel="nofollow" class="sm-public"><span>СВОЕДЕЛО</span></a></div>
+				<div class="col-xl-2 col-md-4"><a href="https://exiterra.com/blog/biznes-idei/prodazhi-tovarov-v-ssha-cherez-sayt-amazon-iz-lyuboy-tochki-mira/" target="blank" rel="nofollow" class="sm-public"><span>Exiterra</span></a></div>
+			</div>
+		</div>
+	</section>
+
+
+
 	<section class="photo-section">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -673,7 +693,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 						<ul>
 							<li class ="same1">Запускаем для вас магазин на Amazon <br class="d-none d-md-block">«под ключ» и выводим на прибыль</li>
 							<li>Поиск товара для продажи</li>
-							<li>Поиск поставщика в США</li>
+							<li>Поиск поставщика в Китае или США</li>
 							<li class="negative">Заказ пробника (в данной стратегии не требуется)</li>
 							<li class="negative">Брендинг (лого + упаковка)</li>
 							<li class="negative">Профессиональная фотосессия товара</li>
@@ -683,7 +703,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 							<li>Запуск продаж</li>
 							<li>Консультации по вопросам бизнеса на Amazon</li>
 							<li>Обучение управлению бизнесом</li>
-							<li class="same2">Возможность управления бизнесом <br class="d-none d-md-block">нашей командой (за 30% от чистой прибыли магазина)</li>
+							<li class="negative same2">Возможность управления бизнесом <br class="d-none d-md-block">нашей командой (за 30% от чистой прибыли магазина)</li>
 							<li class="no-icon top-border">Стоимость наших услуг: <strong>350 000 руб.</strong></li>
 							<li class="no-icon">Ваши дополнительные вложения <br class="d-none d-md-block">в запуск: <strong>от 90 000 руб.</strong></li>
 							<li class="no-icon with-button"><a class="button open-form-button" href="#take-variants-standart"><span>Узнать подробнее</span></a></li>
