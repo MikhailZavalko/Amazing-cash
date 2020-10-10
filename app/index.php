@@ -71,7 +71,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 					<a class="button open-form-button" href="#take-sentence"><span>Получить предложение</span></a>
 				</div>
 				<div class="col-md-5">
-					<!-- <div class="publicaation">
+					<div class="publicaation">
 						<p>Публикации в СМИ</p>
 
 						<div class="links">
@@ -80,9 +80,11 @@ $ip=$_SERVER['REMOTE_ADDR'];
 							<a href="https://moneymakerfactory.ru/internet/kak-zarabatyivat-na-amazon/" target="blank" class="sm-public"><span><img src="img/MMF-logo.png" alt=""></span></a>
 							<a href="https://the-locality.ru/amazingcash/" target="blank" class="sm-public philosopher"><span>THE LOCALITY</span></a>
 							<a href="https://svdelo.ru/biznes-na-amazon/" target="blank" class="sm-public"><span>СВОЕДЕЛО</span></a>
+							<a href="https://exiterra.com/blog/biznes-idei/prodazhi-tovarov-v-ssha-cherez-sayt-amazon-iz-lyuboy-tochki-mira/"	target="blank" class="sm-public" rel="nofollow"><span>Exiterra</span></a>
+							<a href="https://wall.wayxar.ru/finance/kak_postroit_dokhod_v_dollarakh_zhivya_v_rossii_pri_padayushchem_ruble"	target="blank" class="sm-public" rel="nofollow"><span>Wayxar.wall</span></a>
 						</div>
 
-					</div> -->
+					</div>
 				</div>
 			</div>
 		</div>
@@ -420,7 +422,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 
 
 
-	<section class="publication-section">
+	<!-- <section class="publication-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -436,7 +438,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 				<div class="col-xl-2 col-md-4"><a href="https://exiterra.com/blog/biznes-idei/prodazhi-tovarov-v-ssha-cherez-sayt-amazon-iz-lyuboy-tochki-mira/" target="blank" rel="nofollow" class="sm-public"><span>Exiterra</span></a></div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 
 
 
@@ -912,7 +914,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 				</div>
 				<div class="col-md-4 align-self-center">
 					<a class="politic-button footer-button open-form-button" href="#politic">Политика конфиденциальности</a>
-					<div class="sm-light">Предложение не является публичной офертой</div>
+					<div class="sm-light">Предложение не является публичной офертой.<br>18+ ИП Романов Е.П. ОГРНИП 318784700095962</div>
 				</div>
 				<div class="col-md-3 text-right">
 					<div class="contacts">
