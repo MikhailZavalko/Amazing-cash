@@ -31,7 +31,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 	
 	<meta name="yandex-verification" content="36862617fdf9f673" />
 
-	<link rel="stylesheet" href="css/main.min.css?v=4.5">
+	<link rel="stylesheet" href="css/main.min.css?v=4.6">
 
 </head>
 
@@ -70,7 +70,7 @@ $ip=$_SERVER['REMOTE_ADDR'];
 				<div class="col-md-4 col-xs-12">
 					<a class="button open-form-button" href="#take-sentence"><span>Получить предложение</span></a>
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-7">
 					<div class="publicaation">
 						<p>Публикации в СМИ</p>
 
@@ -80,8 +80,9 @@ $ip=$_SERVER['REMOTE_ADDR'];
 							<a href="https://moneymakerfactory.ru/internet/kak-zarabatyivat-na-amazon/" target="blank" class="sm-public"><span><img src="img/MMF-logo.png" alt=""></span></a>
 							<a href="https://the-locality.ru/amazingcash/" target="blank" class="sm-public philosopher"><span>THE LOCALITY</span></a>
 							<a href="https://svdelo.ru/biznes-na-amazon/" target="blank" class="sm-public"><span>СВОЕДЕЛО</span></a>
-							<a href="https://exiterra.com/blog/biznes-idei/prodazhi-tovarov-v-ssha-cherez-sayt-amazon-iz-lyuboy-tochki-mira/"	target="blank" class="sm-public" rel="nofollow"><span>Exiterra</span></a>
-							<a href="https://wall.wayxar.ru/finance/kak_postroit_dokhod_v_dollarakh_zhivya_v_rossii_pri_padayushchem_ruble"	target="blank" class="sm-public" rel="nofollow"><span>Wayxar.wall</span></a>
+							<a href="https://exiterra.com/blog/biznes-idei/prodazhi-tovarov-v-ssha-cherez-sayt-amazon-iz-lyuboy-tochki-mira/" target="blank" rel="nofollow" class="sm-public"><span>Exiterra</span></a>
+							<a href="https://wall.wayxar.ru/finance/kak_postroit_dokhod_v_dollarakh_zhivya_v_rossii_pri_padayushchem_ruble" target="blank" rel="nofollow" class="sm-public"><span>Wayaxar.wall</span></a>
+							<a href="https://slovodelu.by/expert-opinion/kak-zapustit-internet-magazin-v-ssha-i-zarabatyvat-v-dollarakh/" target="blank" rel="nofollow" class="sm-public"><span>Слово Делу</span></a>
 						</div>
 
 					</div>
