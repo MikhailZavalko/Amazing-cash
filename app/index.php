@@ -455,6 +455,21 @@ $ip=$_SERVER['REMOTE_ADDR'];
 					<div class="gallery owl-carousel d-none d-sm-block">
 
 						<div class="slide-item">
+							<h5>Сентябрь 2020</h5>
+							<div class="res-imgs">
+								<img src="img/slides/8/1.jpg" alt="Сентябрь 2020">
+								<img src="img/slides/8/2.jpg" alt="Сентябрь 2020">
+								<img src="img/slides/8/3.jpg" alt="Сентябрь 2020">
+							</div>
+							<h5>Октябрь 2020</h5>
+							<div class="res-imgs">
+								<img src="img/slides/8/4.jpg" alt="Октябрь 2020">
+								<img src="img/slides/8/5.jpg" alt="Октябрь 2020">
+								<img src="img/slides/8/6.jpg" alt="Октябрь 2020">
+							</div>
+						</div>
+
+						<div class="slide-item">
 							<h5>Июль 2020</h5>
 							<div class="res-imgs">
 								<img src="img/slides/7/1.jpg" alt="Июль 2020">
@@ -566,6 +581,24 @@ $ip=$_SERVER['REMOTE_ADDR'];
 
 
 					<div class="gallery owl-carousel d-block d-sm-none">
+
+						<div class="slide-item">
+							<h5>Сентябрь 2020</h5>
+							<div class="res-imgs">
+								<img src="img/slides/8/1.jpg" alt="Сентябрь 2020">
+								<img src="img/slides/8/2.jpg" alt="Сентябрь 2020">
+								<img src="img/slides/8/3.jpg" alt="Сентябрь 2020">
+							</div>
+						</div>
+
+						<div class="slide-item">
+							<h5>Октябрь 2020</h5>
+							<div class="res-imgs">
+								<img src="img/slides/8/4.jpg" alt="Октябрь 2020">
+								<img src="img/slides/8/5.jpg" alt="Октябрь 2020">
+								<img src="img/slides/8/6.jpg" alt="Октябрь 2020">
+							</div>
+						</div>
 
 						<div class="slide-item">
 							<h5>Июль 2020</h5>
